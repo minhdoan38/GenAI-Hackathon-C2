@@ -1,0 +1,18 @@
+[
+  {"name":"report_id","type":"STRING","mode":"REQUIRED"},
+  {"name":"created_at","type":"TIMESTAMP","mode":"REQUIRED"},
+  {"name":"description","type":"STRING"},
+  {"name":"latitude","type":"FLOAT"},
+  {"name":"longitude","type":"FLOAT"},
+  {"name":"category","type":"STRING"},
+  {"name":"severity","type":"INTEGER"},
+  {"name":"confidence","type":"FLOAT"},
+  {"name":"summary","type":"STRING"},
+  {"name":"recommendation","type":"STRING"},
+  {"name":"priority","type":"STRING"},
+  {"name":"estimated_impact","type":"STRING"},
+  {"name":"evidence","type":"STRING","mode":"REPEATED"},
+  {"name":"uncertainty","type":"STRING","mode":"REPEATED"},
+  {"name":"urban_context","type":"STRING"},
+  {"name":"image_gcs_uri","type":"STRING"}
+]

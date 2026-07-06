@@ -1,0 +1,6 @@
+[
+  {"name":"report_id","type":"STRING","mode":"REQUIRED"},
+  {"name":"status","type":"STRING","mode":"REQUIRED"},
+  {"name":"note","type":"STRING","mode":"NULLABLE"},
+  {"name":"created_at","type":"TIMESTAMP","mode":"REQUIRED"}
+]
